@@ -9,16 +9,18 @@
       "email": "jeremy@jermolene.com"
     }
   ],
-  "main": "./boot/boot.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jermolene/tiddlywiki-azure-ci"
+  },
+  "dependencies": {
+	"tiddlywiki": "*"
   },
   "devDependencies": {
   },
   "bundleDependencies": [],
   "license": "BSD",
   "scripts": {
-    "run": "npx tiddlywiki /editions/tw5.com-server --listen"
+    "start": "./node_modules/tiddlywiki/tiddlywiki.js /editions/tw5.com-server --listen"
   }
 }
