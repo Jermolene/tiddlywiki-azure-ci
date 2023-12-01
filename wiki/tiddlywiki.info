@@ -9,7 +9,7 @@
 		"tiddlywiki/menubar",
 		"tiddlywiki/qrcode",
 		"tiddlywiki/filesystem",
-		"tiddlywiki/tiddlywebadaptor"
+		"tiddlywiki/tiddlyweb"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
