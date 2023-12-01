@@ -19,6 +19,6 @@
   "bundleDependencies": [],
   "license": "BSD",
   "scripts": {
-    "run": "npx tiddlywiki./editions/tw5.com-server --listen"
+    "run": "npx tiddlywiki /editions/tw5.com-server --listen"
   }
 }
