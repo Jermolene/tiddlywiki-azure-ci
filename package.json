@@ -1,0 +1,24 @@
+{
+  "name": "tiddlywiki-azure-ci",
+  "version": "0.0.0",
+  "author": "Jeremy Ruston <jeremy@jermolene.com>",
+  "description": "Experimenting with deploying TiddlyWiki with Azure",
+  "contributors": [
+    {
+      "name": "Jeremy Ruston",
+      "email": "jeremy@jermolene.com"
+    }
+  ],
+  "main": "./boot/boot.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jermolene/tiddlywiki-azure-ci"
+  },
+  "devDependencies": {
+  },
+  "bundleDependencies": [],
+  "license": "BSD",
+  "scripts": {
+    "run": "npx tiddlywiki./editions/tw5.com-server --listen"
+  }
+}
