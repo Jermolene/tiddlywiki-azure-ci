@@ -1,0 +1,31 @@
+{
+	"description": "Documentation from https://tiddlywiki.com",
+	"plugins": [
+		"tiddlywiki/nodewebkitsaver",
+		"tiddlywiki/browser-sniff",
+		"tiddlywiki/railroad",
+		"tiddlywiki/evernote",
+		"tiddlywiki/internals",
+		"tiddlywiki/menubar",
+		"tiddlywiki/qrcode",
+		"tiddlywiki/filesystem",
+		"tiddlywiki/tiddlywebadaptor"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite",
+		"tiddlywiki/starlight",
+		"tiddlywiki/seamless",
+		"tiddlywiki/centralised",
+		"tiddlywiki/tight",
+		"tiddlywiki/heavier",
+		"tiddlywiki/tight-heavier",
+		"tiddlywiki/readonly"
+	],
+	"languages": [
+	],
+	"build": {
+	},
+	"config": {
+	}
+}
