@@ -15,7 +15,7 @@
     "url": "https://github.com/Jermolene/tiddlywiki-azure-ci"
   },
   "dependencies": {
-	"tiddlywiki": "Jermolene/TiddlyWiki5#geospatial-plugin"
+	"tiddlywiki": "Jermolene/TiddlyWiki5#cors-support"
   },
   "devDependencies": {
   },

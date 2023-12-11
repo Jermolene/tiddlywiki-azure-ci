@@ -9,8 +9,7 @@
 		"tiddlywiki/menubar",
 		"tiddlywiki/qrcode",
 		"tiddlywiki/filesystem",
-		"tiddlywiki/tiddlyweb",
-		"tiddlywiki/geospatial"
+		"tiddlywiki/tiddlyweb"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
