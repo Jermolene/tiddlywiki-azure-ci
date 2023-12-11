@@ -6,5 +6,3 @@ This repo demonstrates how to create a TiddlyWiki Node.js server that runs on Mi
 
 1. Create a new Web App, selecting Node.js as the runtime stack
 2. Select the GitHub repo containing the application as the deployment source, and let Azure set it up
-
-
