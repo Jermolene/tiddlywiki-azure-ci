@@ -1,7 +1,7 @@
 /*\
 title: $:/core/modules/server/authenticators/dumpheaders.js
 type: application/javascript
-module-type: authenticator
+module-type: authenticator-x
 
 Authenticator to dump headers
 
