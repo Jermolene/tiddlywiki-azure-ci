@@ -1,5 +1,5 @@
 {
-	"description": "Documentation from https://tiddlywiki.com",
+	"description": "Wiki for Azure CI",
 	"plugins": [
 		"tiddlywiki/nodewebkitsaver",
 		"tiddlywiki/browser-sniff",
@@ -10,7 +10,7 @@
 		"tiddlywiki/qrcode",
 		"tiddlywiki/filesystem",
 		"tiddlywiki/tiddlyweb",
-		"tiddlywiki/geospatial"
+		"tiddlywiki/multiwikiserver"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
