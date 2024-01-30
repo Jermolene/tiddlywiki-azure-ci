@@ -14,14 +14,11 @@
     "type": "git",
     "url": "https://github.com/Jermolene/tiddlywiki-azure-ci"
   },
-  "dependencies": {
-	"tiddlywiki": "Jermolene/TiddlyWiki5#geospatial-plugin"
-  },
-  "devDependencies": {
-  },
-  "bundleDependencies": [],
   "license": "BSD",
   "scripts": {
     "start": "node ./node_modules/tiddlywiki/tiddlywiki.js ./wiki/ --verbose --listen debug-level=full authenticated-user-header=x-ms-client-principal-name host=0.0.0.0 port=PORT"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.3.3"
   }
 }
