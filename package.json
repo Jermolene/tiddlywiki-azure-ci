@@ -9,6 +9,9 @@
       "email": "jeremy@jermolene.com"
     }
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "main": "./node_modules/tiddlywiki/tiddlywiki.js",
   "repository": {
     "type": "git",
