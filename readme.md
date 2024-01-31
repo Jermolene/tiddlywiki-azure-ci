@@ -11,3 +11,9 @@ This repo demonstrates how to create a TiddlyWiki Node.js server that runs on Mi
 ```
 az webapp cors add -g JeremyResourceGroup -n JermoTest1 --allowed-origins "*"
 ```
+
+4. Use the following command to set the correct Node.js version:
+
+```
+az webapp config set --resource-group ResourcesJermoTest2 --name JermoTest2 --linux-fx-version "NODE|18-lts"
+```
