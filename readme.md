@@ -18,3 +18,4 @@ az webapp cors add -g ResourcesJermoTest2 -n JermoTest2 --allowed-origins "*"
 az webapp config set --resource-group ResourcesJermoTest2 --name JermoTest2 --linux-fx-version "NODE|18-lts"
 ```
 
+
