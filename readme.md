@@ -11,4 +11,3 @@ This repo demonstrates how to create a TiddlyWiki Node.js server that runs on Mi
 ```
 az webapp cors add -g JeremyResourceGroup -n JermoTest1 --allowed-origins "*"
 ```
-
