@@ -21,3 +21,4 @@ az webapp config set --resource-group ResourcesJermoTest2 --name JermoTest2 --li
 Kudu UI:
 
 https://jermotest5.scm.azurewebsites.net/newui/kududebug
+
