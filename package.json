@@ -10,7 +10,7 @@
     }
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "main": "./node_modules/tiddlywiki/tiddlywiki.js",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "license": "BSD",
   "scripts": {
-    "start": "npm install -g node-gyp && npm rebuild better_sqlite3 --update-binary && node /home/site/wwwroot/node_modules/tiddlywiki/tiddlywiki.js /home/site/wwwroot/wiki/ --verbose --listen debug-level=full host=0.0.0.0 port=PORT"
+    "start": "node /home/site/wwwroot/node_modules/tiddlywiki/tiddlywiki.js /home/site/wwwroot/wiki/ --verbose --listen debug-level=full host=0.0.0.0 port=PORT"
   },
   "dependencies": {
 	"tiddlywiki": "Jermolene/TiddlyWiki5#multi-wiki-support"
