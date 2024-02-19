@@ -12,13 +12,9 @@ This repo demonstrates how to create a TiddlyWiki Node.js server that runs on Mi
 az webapp cors add -g ResourcesJermoTest2 -n JermoTest2 --allowed-origins "*"
 ```
 
-4. Use the following command to set the correct Node.js version:
-
-```
-az webapp config set --resource-group ResourcesJermoTest2 --name JermoTest2 --linux-fx-version "NODE|18-lts"
-```
+4. Set the following application configuration setting `WEBSITE_NODE_DEFAULT_VERSION` to `20.x`
 
 Kudu UI:
 
-https://jermotest5.scm.azurewebsites.net/newui/kududebug
+https://jermotest6.scm.azurewebsites.net/newui/kududebug
 
