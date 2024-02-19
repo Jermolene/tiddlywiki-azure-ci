@@ -14,7 +14,8 @@ az webapp cors add -g ResourcesJermoTest2 -n JermoTest2 --allowed-origins "*"
 
 4. Set the following application configuration setting `WEBSITE_NODE_DEFAULT_VERSION` to `20.0`
 
-Kudu UI:
+# Notes
 
-https://jermotest6.scm.azurewebsites.net/newui/kududebug
+* Kudu new UI: https://jermotest6.scm.azurewebsites.net/newui/kududebug
+* Map of NODE_MODULE_VERSION to human facing version numbers https://github.com/nodejs/node/blob/main/doc/abi_version_registry.json
 
