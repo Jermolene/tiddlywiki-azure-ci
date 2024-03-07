@@ -22,6 +22,6 @@
     "start": "[ -d \"./wiki/store/database.sqlite.lock\" ] && rmdir \"./wiki/store/database.sqlite.lock\"; node ./node_modules/tiddlywiki/tiddlywiki.js ./wiki/ --verbose --listen debug-level=full host=0.0.0.0 port=PORT"
   },
   "dependencies": {
-    "tiddlywiki": "github:Jermolene/TiddlyWiki5#multi-wiki-support"
+    "tiddlywiki": "github:Jermolene/TiddlyWiki5#multi-wiki-support-attachments"
   }
 }
