@@ -10,7 +10,8 @@
 		"tiddlywiki/qrcode",
 		"tiddlywiki/filesystem",
 		"tiddlywiki/tiddlyweb",
-		"tiddlywiki/multiwikiserver"
+		"tiddlywiki/multiwikiserver",
+		"tiddlywiki/multiwikiclient"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
