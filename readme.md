@@ -18,4 +18,3 @@ az webapp cors add -g JermoTest7_group -n JermoTest7 --allowed-origins "*"
 
 * Kudu new UI: https://jermotest7.scm.azurewebsites.net/newui/kududebug
 * Map of NODE_MODULE_VERSION to human facing version numbers https://github.com/nodejs/node/blob/main/doc/abi_version_registry.json
-
