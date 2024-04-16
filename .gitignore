@@ -3,5 +3,6 @@
 .vs/
 .vscode/
 tmp/
+store/
 output/
 node_modules/

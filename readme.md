@@ -9,12 +9,10 @@ This repo demonstrates how to create a TiddlyWiki Node.js server that runs on Mi
 3. Enable CORS with the following command in the Azure cloud shell:
 
 ```
-az webapp cors add -g JermoTest7_group -n JermoTest7 --allowed-origins "*"
+az webapp cors add -g JermoTest9_group -n JermoTest9 --allowed-origins "*"
 ```
-
-4. Set the following application configuration setting `WEBSITE_NODE_DEFAULT_VERSION` to `20.0`
 
 # Notes
 
-* Kudu new UI: https://jermotest7.scm.azurewebsites.net/newui/kududebug
+* Kudu new UI: https://jermotest9.scm.azurewebsites.net/newui/kududebug
 * Map of NODE_MODULE_VERSION to human facing version numbers https://github.com/nodejs/node/blob/main/doc/abi_version_registry.json
