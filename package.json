@@ -2,7 +2,7 @@
   "name": "tiddlywiki-azure-ci",
   "version": "0.0.0",
   "author": "Jeremy Ruston <jeremy@jermolene.com>",
-  "description": "Experimenting with deploying TiddlyWiki with Azure",
+  "description": "Experimenting with deploying TiddlyWiki MultiWikiServer with Azure",
   "contributors": [
     {
       "name": "Jeremy Ruston",
@@ -12,16 +12,19 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "main": "./node_modules/tiddlywiki/tiddlywiki.js",
+  "bin": {
+    "mws": "./mws.run.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Jermolene/tiddlywiki-azure-ci"
   },
   "license": "BSD",
   "scripts": {
-    "start": "[ -d \"./wiki/store/database.sqlite.lock\" ] && rmdir \"./wiki/store/database.sqlite.lock\"; node ./node_modules/tiddlywiki/tiddlywiki.js ./wiki/ --verbose --mws-listen debug-level=full host=0.0.0.0 port=PORT"
+    "start": "node --enable-source-maps mws.run.mjs"
   },
   "dependencies": {
-    "tiddlywiki": "github:Jermolene/TiddlyWiki5#multi-wiki-support"
+    "@tiddlywiki/mws": "0.0.12",
+    "tiddlywiki": "5.3.6"
   }
 }
